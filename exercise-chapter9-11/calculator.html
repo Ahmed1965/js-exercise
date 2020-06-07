@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise - Calculator</title>
+    <link rel="stylesheet" href="/css/calculator.css">
+
+    
+</head>
+<body>
+    <div class="main">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+        </ul>
+    </div>
+     
+    <h1>Exercise Java Scrip Chapter 9-11 </h1>
+    <h1>The Bsic Calculator</h1>
+    <p>First Number:  <input type="text"id = "n1" maxlength="7" value="0.0"></p> 
+    <br><br>
+    <p>Second Number:  <input type="text"id = "n2" maxlength="7" value="0.0"></p> 
+    
+    <select id="opr">
+        <option checked value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+        <option value="%">%</option>
+    </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    <button type = "button" onclick="calculator();" >=</button>
+    <br>
+    <br>
+    <p>Answer: <input type="number" id="result"></p> 
+    <br><br>
+
+
+    
+
+
+    <script src="./js/Calcualtor.js"></script>
+</body>
+</html>

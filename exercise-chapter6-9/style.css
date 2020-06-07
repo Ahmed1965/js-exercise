@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#nameDiv{
+    /* margin: 10px; */
+    margin-top: 25px;
+    
+    
+   
+    
+    
+}
+.input{
+    font-weight: 700;
+    font-size: 25px;
+    
+    
+}
+#record{
+    width: 145px;
+    height: 40px;
+    font-size: 23px;
+    margin-top: 10px;
+    background-color: blue;
+    color: whitesmoke;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: burlywood;
+    
+}
+table th, td{
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid green;
+}
+th{
+font-size: 30px;
+font-weight: 700;
+padding: 5px;
+}
+
